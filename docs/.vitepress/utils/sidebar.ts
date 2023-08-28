@@ -150,6 +150,7 @@ export const sidebar = {
         { text: "获取地址栏参数", link: "/Functions/custom/GetPathParams" },
         { text: "对象深度合并", link: "/Functions/custom/DeepMearge" },
         { text: "对象过滤", link: "/Functions/custom/RemoveEmptyField" },
+        { text: "分类汇总", link: "/Functions/custom/GroupArrayByKey" },
         { text: "深拷贝", link: "/Functions/custom/DeepCopy" },
         { text: "保存为json/txt文件", link: "/Functions/custom/SaveFile" },
         { text: "正则表单验证", link: "/Functions/custom/FormValidate" },
