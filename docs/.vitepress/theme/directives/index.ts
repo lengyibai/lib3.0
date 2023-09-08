@@ -746,6 +746,28 @@ const viewImg = {
   },
 };
 
+const scrollObserver = {
+  mounted(el: HTMLElement) {
+    el.style.transition = "0.75s";
+    // 自身进入可视区50%播放动画
+    el.style.transform = "translateY(50%)";
+    el.style.opacity = "0";
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && entry.intersectionRatio >= 0) {
+            el.style.transform = "translateY(0px)";
+            el.style.opacity = "1";
+            observer.unobserve(el);
+          }
+        });
+      },
+      { threshold: [0, 0.25, 1] }
+    );
+    observer.observe(el);
+  },
+};
+
 export default {
   waveDiffuse,
   textHoverColor,
@@ -761,4 +783,5 @@ export default {
   tableLayout,
   dragFile,
   viewImg,
+  scrollObserver,
 };

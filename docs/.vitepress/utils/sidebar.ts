@@ -96,6 +96,7 @@ export const sidebar = {
         { text: "表格经典布局", link: "/Directives/TableLayout" },
         { text: "文件拖拽解析", link: "/Directives/DragFile" },
         { text: "查看图片", link: "/Directives/ViewImg" },
+        { text: "滚动入场动画", link: "/Directives/ScrollObserver" },
       ],
     },
   ],

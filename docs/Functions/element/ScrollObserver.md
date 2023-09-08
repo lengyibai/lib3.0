@@ -8,6 +8,8 @@
 
 <template #desc>
 使用`IntersectionObserver`方法重写上一个动画函数，更简洁，性能更好
+
+更精简版可参考自定义指令版 [滚动入场动画](/Directives/ScrollObserver.html)
 </template>
 
 </ContainerBox>
