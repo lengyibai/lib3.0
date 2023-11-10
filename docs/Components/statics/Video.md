@@ -6,7 +6,7 @@
 
 <ContainerBox title="介绍">
 <template #desc>
-一个轻巧的视频播放器
+在这个功能基础修改样式
 </template>
 </ContainerBox>
 

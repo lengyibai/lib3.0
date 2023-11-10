@@ -19,8 +19,6 @@ export const sidebar = {
       collapsible: true,
       link: "/Components/statics/Ico",
       items: [
-        { text: "图标", link: "/Components/statics/Icon" },
-        { text: "SVG变色图标", link: "/Components/statics/Svg" },
         { text: "提交按钮", link: "/Components/statics/CommitBtn" },
         { text: "更新按钮", link: "/Components/statics/UpdateBtn" },
         { text: "删除按钮", link: "/Components/statics/DeleteBtn" },
@@ -29,7 +27,7 @@ export const sidebar = {
         { text: "Grid特色布局", link: "/Components/statics/GridLayout" },
         { text: "Grid数字模板布局", link: "/Components/statics/GridNumber" },
         { text: "Grid字母模板布局", link: "/Components/statics/GridLetter" },
-        { text: "视频播放器", link: "/Components/statics/Video" },
+        { text: "简易视频播放器", link: "/Components/statics/Video" },
         { text: "顶部关闭蒙版", link: "/Components/statics/MaskClose" },
         { text: "卡片翻转", link: "/Components/statics/FlipBox" },
         { text: "蒙版", link: "/Components/statics/Mask" },
@@ -126,8 +124,6 @@ export const sidebar = {
       text: "丰富",
       collapsable: false,
       items: [
-        { text: "防抖", link: "/Functions/custom/Debounce" },
-        { text: "节流", link: "/Functions/custom/Throttle" },
         { text: "数字每三位加逗号", link: "/Functions/custom/FmtNum" },
         { text: "手机号脱敏处理", link: "/Functions/custom/HideMobile" },
         { text: "复制到剪切板", link: "/Functions/custom/CopyText" },
@@ -198,6 +194,19 @@ export const sidebar = {
         { text: "折", link: "/Animates/Fold" },
         { text: "展", link: "/Animates/Deploy" },
       ],
+    },
+  ],
+
+  "/Hooks/": [
+    {
+      text: "基础",
+      collapsable: false,
+      items: [{ text: "返回数据类型", link: "/Hooks/ordinary/Type" }],
+    },
+    {
+      text: "丰富",
+      collapsable: false,
+      items: [{ text: "数字每三位加逗号", link: "/Hooks/custom/FmtNum" }],
     },
   ],
 };
